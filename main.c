@@ -204,6 +204,7 @@ print_cell(Cell c, int neigh)
 void
 print_controls(int x, int y)
 {
+	text_color(lgray);
 	move(x, y);	
 	printf("hjkl - move cursor");
 	move(x, y+1);
